@@ -28,7 +28,7 @@ body {
 
 .col-1 {
     border-radius: 1rem 0 0 1rem;
-    background-image: url("./images/sparkler.jpg");
+    /*background-image: url("./images/sparkler.jpg");*/
     background-size: cover;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .col-3 {
-    background-image: url("./images/sparkler.jpg");
+    /*background-image: url("./images/sparkler.jpg");*/
     background-size: cover;
     background-position: right;
     border-radius: 0 1rem 1rem 0;
@@ -74,7 +74,7 @@ button {
     color: white;
     padding: 1rem;
     border-radius: 1rem;
-    border: #202B60; 
+    border: #202B60;
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 1px;
@@ -106,9 +106,9 @@ button:focus {
     background-color: #232D39;
     color: white;
     padding: 0.5rem;
-    margin: 2rem 0; 
+    margin: 2rem 0;
     font-size: 1rem;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     outline: none;
     transition: all .2s ease-in-out;
 }
@@ -157,8 +157,8 @@ hr {
 /* HOVER STUFF */
 
 .col-3 > div :nth-child(3) i,
-.user-sign :first-child:hover, 
-.user-sign :nth-child(3):hover, 
+.user-sign :first-child:hover,
+.user-sign :nth-child(3):hover,
 .form input[type=submit]:hover,
 button:hover {
     cursor: pointer;
